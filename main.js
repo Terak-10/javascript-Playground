@@ -191,3 +191,24 @@ console.log(`Slovakian population is ${population >= 33000000 ? "above": "below"
 
 
 ////////////////////////////////  9 ////////////////////////////////
+/*
+
+function describeCountry(country, population, capitalCity) {
+    //console.log(country, population, capitalCity);
+    const info = `${country} has ${population} milions people and its capital city is ${capitalCity};`
+    return info;
+}
+
+const slovakia = describeCountry("Slovakia", 5, "Bratislava");
+console.log(slovakia);
+
+const finland = describeCountry("Finland", 6, "Helsinky");
+console.log(finland);
+
+const czech = describeCountry("Czech", 11, "Prague");
+console.log(czech);
+
+console.log("🐆");
+*/
+
+////////////////////////////////  10 ////////////////////////////////
