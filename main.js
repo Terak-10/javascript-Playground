@@ -212,3 +212,42 @@ console.log("🐆");
 */
 
 ////////////////////////////////  10 ////////////////////////////////
+/*
+
+
+
+// Declaration
+
+function percentageOfWorld1(population) {
+    return population / 7900 * 100;
+}
+
+const chinaPercentage = percentageOfWorld1(1441);
+console.log(`China it's about ${chinaPercentage} of the world population`);
+
+const slovakiaPercentage = percentageOfWorld1(5);
+console.log(`Slovakia it's about ${slovakiaPercentage} of the world population`);
+
+const polandPercentage = percentageOfWorld1(37);
+console.log(`Poland it's about ${polandPercentage} of the world population`);
+*/
+
+
+
+// Expression
+/*
+const percentageOfworld2 = function(population) {
+    return population / 7900 * 100;
+}
+
+const chinaPercentage2 = percentageOfworld2(1441)
+console.log(`China it's about ${chinaPercentage2} of the world population`);
+
+const slovakiaPercentage2 = percentageOfworld2(5);
+console.log(`Slovakia it's about ${slovakiaPercentage2} of the world population`);
+
+const polandPercentage2 = percentageOfworld2(37);
+console.log(`Poland it's about ${polandPercentage2} of the world population`);
+*/
+
+////////////////////////////////  11 ////////////////////////////////
