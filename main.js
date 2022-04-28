@@ -233,9 +233,9 @@ console.log(`Poland it's about ${polandPercentage} of the world population`);
 */
 
 
-
-// Expression
 /*
+// Expression
+
 const percentageOfworld2 = function(population) {
     return population / 7900 * 100;
 }
@@ -248,6 +248,37 @@ console.log(`Slovakia it's about ${slovakiaPercentage2} of the world population`
 
 const polandPercentage2 = percentageOfworld2(37);
 console.log(`Poland it's about ${polandPercentage2} of the world population`);
+
+
+
+// Arrow 
+
+const percentageOfWorld3 = population => population / 7900 * 100;
+const chinaPercentage3 = percentageOfWorld3(1441);
+console.log(`China it's about ${chinaPercentage3} of the world population`);
 */
 
 ////////////////////////////////  11 ////////////////////////////////
+/*
+
+const percentageOfWorld = function(population) {
+    return population / 7900 * 100;
+}
+
+const describePopulation = function(country, population) {
+     const average = percentageOfWorld(population);
+     return `${country} has ${population} milion people, which is about ${average} of the world.`
+}
+
+const chinaPopulation = describePopulation("China", 1441);
+console.log(chinaPopulation);
+
+const slovakiaPopulation = describePopulation("Slovakia", 5);
+console.log(slovakiaPopulation);
+
+const polandPopulation = describePopulation("Poland", 35);
+console.log(polandPopulation);
+
+*/
+
+////////////////////////////////  12 ////////////////////////////////
