@@ -282,3 +282,25 @@ console.log(polandPopulation);
 */
 
 ////////////////////////////////  12 ////////////////////////////////
+/*
+
+
+const population = [1441, 5, 37, 100];
+console.log(population.length);
+
+const percentageOfWorld = function(population) {
+    return population / 7900 * 100;
+}
+
+const percentageChina = percentageOfWorld(population[0]);
+const percentageSlovakia = percentageOfWorld(population[1]);
+const percentagePoland = percentageOfWorld(population[2]);
+const percentageBanglades = percentageOfWorld(population[3]);
+
+ 
+const percentages = [percentageOfWorld(population[0]), percentageOfWorld(population[1]), percentageOfWorld(population[2]), percentageOfWorld(population[3])];
+console.log(percentages);
+
+*/
+
+////////////////////////////////  13 ////////////////////////////////
