@@ -304,3 +304,29 @@ console.log(percentages);
 */
 
 ////////////////////////////////  13 ////////////////////////////////
+
+/*
+
+const neighbours = ["Poland", "Ukraine", "Hungary", "Austria", "Czech"];
+neighbours.push("Utopia");
+
+console.log(neighbours);
+
+neighbours.pop();
+console.log(neighbours);
+
+
+if(neighbours.includes("Germnay")) {
+    console.log("Germany is neighbour");
+} else {
+    console.log("Probably not a central European country");
+}
+
+console.log(neighbours.indexOf("Czech"));
+
+neighbours[4] = "Czech Republic";
+console.log(neighbours);
+
+*/
+
+////////////////////////////////  14 ////////////////////////////////
