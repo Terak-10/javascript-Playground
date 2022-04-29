@@ -330,3 +330,16 @@ console.log(neighbours);
 */
 
 ////////////////////////////////  14 ////////////////////////////////
+/*
+
+const myCountry = {
+    country: "Slovakia",
+    population: 5000000,
+    capital: "Bratislava",
+    neighbours: ["Poland", "Ukraine", "Hungary", "Austria", "Czech"]
+};
+console.log(myCountry);
+
+*/
+
+////////////////////////////////  15 ////////////////////////////////
