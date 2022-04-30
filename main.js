@@ -343,3 +343,23 @@ console.log(myCountry);
 */
 
 ////////////////////////////////  15 ////////////////////////////////
+
+/*
+const myCountry = {
+    country: "Slovakia",
+    population: 5,
+    capital: "Bratislava",
+    neighbours: ["Poland", "Ukraine", "Hungary", "Austria", "Czech"]
+};
+
+console.log(`${myCountry.country} has ${myCountry.population} milion finnish-speaking people, ${myCountry.neighbours.length} 
+neighbouring countires and a capital called ${myCountry.capital}`);
+
+myCountry.population = 3;
+console.log(myCountry);
+
+myCountry["population"] = 5;
+console.log(myCountry);
+*/
+
+////////////////////////////////  16 ////////////////////////////////
