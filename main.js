@@ -343,8 +343,8 @@ console.log(myCountry);
 */
 
 ////////////////////////////////  15 ////////////////////////////////
-
 /*
+
 const myCountry = {
     country: "Slovakia",
     population: 5,
@@ -362,4 +362,29 @@ myCountry["population"] = 5;
 console.log(myCountry);
 */
 
+
 ////////////////////////////////  16 ////////////////////////////////
+/*
+
+const myCountry = {
+    country: "Slovakia",
+    population: 5,
+    capital: "Bratislava",
+    neighbours: ["Poland", "Ukraine", "Hungary", "Austria", "Czech"],
+
+    describe: function() {
+        console.log(`${this.country} has ${this.population} milion finnishing-speaking people, ${this.neighbours.length}
+        neighbouring countries and a capital called ${this.capital}`);
+    },
+
+    chechIsland: function() {
+       this.isIsland = this.neighbours.length === 0 ? true : false;
+    }
+};
+
+myCountry.describe();
+myCountry.chechIsland();
+console.log(myCountry);
+*/
+
+////////////////////////////////  17 ////////////////////////////////
