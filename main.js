@@ -397,3 +397,22 @@ for(let voters = 1; voters <=50; voters++) {
 */
 
 ////////////////////////////////  18 ////////////////////////////////
+
+/*
+const population = [1441, 5, 37, 100];
+const percentages2 = [];
+
+const percentageOfTheWorld = function(people){
+    return people / 7900 * 100;
+}
+
+for(let i = 0; i < population.length; i++) {
+    const perc = percentageOfTheWorld(population[i]);
+    percentages2.push(perc);
+}
+
+console.log(percentages2);
+
+*/
+
+////////////////////////////////  19 ////////////////////////////////
