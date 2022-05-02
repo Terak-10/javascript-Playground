@@ -429,3 +429,25 @@ for(i = 0; i < listOfNeighbours.length; i++) {
 */
 
 ////////////////////////////////  20 ////////////////////////////////
+/*
+const population = [1441, 5, 37, 100];
+const percentageOfTheWorld3 = function(people) {
+    return people / 7900 * 100;
+}
+
+
+let percentages3 = [];
+
+
+i = 0;
+
+while(i < population.length) {
+    const perc = percentageOfTheWorld3(population[i]);
+    percentages3[i] = perc;
+    i++;
+}
+
+console.log(percentages3);
+
+*/
+////////////////////////////////  21 ////////////////////////////////
